@@ -4,6 +4,56 @@ body {
 	color: black;
 }
 
+body {
+	color: black;
+}
+
+	.tray-icon:hover {
+		font-size: 30px;
+	}
+
+	.tray-element {
+		height: 60px;
+		width: 15%;
+		margin: 0 auto;
+		padding-top: 10px;
+		vertical-align: middle;
+		display: unset;
+		display: inline-block;
+		-ms-flex-wrap: unset;
+		flex-wrap: unset;
+	}
+}
+
+.modal-row {
+	margin: 10px 0px 10px 0px;
+}
+/* #main-modal {
+}
+#modal-header {
+}
+#modal-title {
+}
+#modal-body {
+	line-height: 40px;
+}
+#modal-footer {
+} */
+
+#container-col {
+	padding: 0px 0px 0px 0px;
+}
+
+#header {
+	height: 27vh;
+}
+.section {
+	padding: 0px 100px 0px 100px;
+	margin: 0px 10% 40px 10%;
+}
+
+
+
 #navigation {
 	background-color: var(--background);
 	width: 80px;
