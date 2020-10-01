@@ -39,3 +39,7 @@ function toggleTrayActive(elementId) {
 	current[0].className = current[0].className.replace('tray-active', '');
 	next.className += ' tray-active';
 }
+
+function black_box_testing() {
+	window.alert('Black-box testing is a method of software testing that examines the functionality of an application without peering into its internal structures or workings. This method of test can be applied virtually to every level of software testing: unit, integration, system and acceptance.');
+}
