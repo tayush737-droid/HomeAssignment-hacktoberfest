@@ -9,20 +9,7 @@
 	}
 }
 
-#profile-section {
-	/* display: table; */
-}
 
-#introduction-div {
-	/* display: table-cell; */
-	vertical-align: middle;
-	display: flex;
-	align-items: center;
-}
-.introduction-sub-div {
-	padding-left: 40px;
-	text-align: justify;
-	text-justify: inter-word;
 }
 .brand-name {
 	font-size: 50px;
