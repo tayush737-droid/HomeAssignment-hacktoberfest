@@ -30,17 +30,7 @@ function checkCookie(cname) {
 	}
 }
 
-function makeAsyncGetRequest(path) {
-	return new Promise(function (resolve, reject) {
-		axios.get(api_url + path).then(
-			(response) => {
-				var returnObj = response.data;
-				console.log('Async Get Request: ' + path);
-				resolve(returnObj);
-			},
-			(error) => {
-				reject(error);
-			}
+
 		);
 	});
 }
