@@ -35,25 +35,6 @@ function checkCookie(cname) {
 	});
 }
 
-function makeAsyncPostRequest(path, queryObject) {
-	return new Promise(function (resolve, reject) {
-		axios.post(api_url + path, queryObject).then(
-			(response) => {
-				var returnObj = response.data;
-				console.log('Async Post Request');
-				resolve(returnObj);
-			},
-			(error) => {
-				reject(error);
-			}
-		);
-	});
-}
-
-function black_box_test() {
-	window.alert('Black-box testing is a method of software testing that examines the functionality of an application without peering into its internal structures or workings. This method of test can be applied virtually to every level of software testing: unit, integration, system and acceptance.');
-}
-
 function if_validateEmail(email) {
 	window.alert('validating email');
 	const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
