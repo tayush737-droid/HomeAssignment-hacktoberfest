@@ -13,9 +13,19 @@
     width: var(--penguin-size, 300px);
     height: var(--penguin-size, 300px);
   }
+
  .right-cheek {
     top: 15%;
     left: 35%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
     background: var(--penguin-belly, white);
     width: 60%;
     height: 70%;
