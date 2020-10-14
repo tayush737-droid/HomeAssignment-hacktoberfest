@@ -9,6 +9,7 @@ void sortedInsert(stack<int> &s, int x)
         return;
     }
     int temp = s.top();
+    //popping elements
     s.pop();
     sortedInsert(s, x);
     s.push(temp);
@@ -29,6 +30,7 @@ int main()
 {
     stack<int> s;
     int n, i = 0, temp;
+    //input elements
     cin >> n;
     while (i < n)
     {
@@ -36,6 +38,7 @@ int main()
         s.push(temp);
         i++;
     }
+    //sorted stack
     sort(s, n);
     while (!s.empty())
     {
