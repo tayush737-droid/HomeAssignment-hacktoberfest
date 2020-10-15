@@ -16,14 +16,15 @@
 				--shadow-white: #f5f7fa;
 				--shadow-black: #212121;
 			}
-			body {
-				background-color: #212121;
-				/* box-sizing: border-box; */
-			}
+			
 			.center {
 				margin: 0 auto;
 				text-align: center;
 				justify-content: center;
+			}
+			body {
+				background-color: #212121;
+				/* box-sizing: border-box; */
 			}
 			button {
 				margin: 0px 0px 0px 0px;
@@ -49,6 +50,11 @@
 				overflow: hidden;
 				background: var(--back2);
 			}
+			
+			button:hover:before {
+				width: 0px;
+				transform: translateY(-50%) translateX(-50%);
+			}
 			button::after {
 				content: 'REPO';
 				letter-spacing: 4px;
@@ -63,10 +69,6 @@
 				border-top: 2px solid var(--back2);
 				transform: translateY(-50%);
 				color: var(--back2);
-			}
-			button:hover:before {
-				width: 0px;
-				transform: translateY(-50%) translateX(-50%);
 			}
 			button:hover:after {
 				width: 160px;
