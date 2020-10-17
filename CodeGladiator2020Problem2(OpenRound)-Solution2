@@ -38,6 +38,21 @@ int main(){
         for(ll i=0;i<n;i++)
             cin>>arr[i];
         sort(arr.begin(),arr.end(),greater<ll>());
+        vector<ll> brr(n);}
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    manipulated_seive();
+    ll t,n;
+    cin>>t;
+    while(t--){
+        manipulated_seive();
+        cin>>n;
+        vector<ll> arr(n);
+        for(ll i=0;i<n;i++)
+            cin>>arr[i];
+        sort(arr.begin(),arr.end(),greater<ll>());
         vector<ll> brr(n);
         for(ll i=0;i<n;i++)
             cin>>brr[i];
