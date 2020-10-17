@@ -21,6 +21,12 @@ int main(){
                     for(ll z=j-1;z<=k-1;z++){
                         sum+=(data[pos[z+1]][z]-data[i][z]);
                     }
+                    if(sum>maxx){           for(ll k=j;k<=p;k++){
+                if(pos[j-1]!=pos[k+1]){
+                    ll sum=0;
+                    for(ll z=j-1;z<=k-1;z++){
+                        sum+=(data[pos[z+1]][z]-data[i][z]);
+                    }
                     if(sum>maxx){
                         maxx=sum;
                         l=j;
