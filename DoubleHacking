@@ -160,7 +160,19 @@ int main()
     n++;
 
     cout<<"final value of loading factor : "<<lamda<<endl<<endl<<endl;
-    
+     start = clock();
+        if(h.search(j)) successful_search_count++;
+        else unsuccessful_search_count++;
+        end = clock();
+        search_time = ((double) (end - start)) / CLOCKS_PER_SEC;
+        cout<<"element searched : "<<j<<"->"<<"search_time : "<<search_time<<endl;
+        index++;
+    }
+    cout<<successful_search_count+unsuccessful_search_count<<" Numbers searched! "<<endl;
+    n++;
+
+    cout<<"final value of loading factor : "<<lamda<<endl<<endl<<endl;
+    s dn ckcsdsdfdrdedrdrftftraviral
     }
     
     cout<<" DONE !"<<endl;
