@@ -8,16 +8,7 @@ using namespace std;
 class doubleHash
 {
 public:
-    long int *hashTable;
-    int curr_size;
-
-    doubleHash()
-    {
-        hashTable = new long int[SIZE]; 
-        curr_size = 0; 
-        for (int i = 0; i < SIZE; i++) 
-            hashTable[i] = -1; 
-    }
+    
 
     int hash1(int k)
     {
@@ -32,6 +23,17 @@ public:
     bool isFull()
     {
         return(curr_size == SIZE);
+    }
+    
+    long int *hashTable;
+    int curr_size;
+
+    doubleHash()
+    {
+        hashTable = new long int[SIZE]; 
+        curr_size = 0; 
+        for (int i = 0; i < SIZE; i++) 
+            hashTable[i] = -1; 
     }
 
     void insertHash(int key) 
