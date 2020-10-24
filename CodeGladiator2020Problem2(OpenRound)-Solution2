@@ -25,7 +25,9 @@ void manipulated_seive()
 	}
 }
 int main(){
-    ios_base::sync_with_stdio(false);
+   isprime[i*prime[j]]=false; 
+			SPF[i*prime[j]] = prime[j] ; 
+   ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
     manipulated_seive();
