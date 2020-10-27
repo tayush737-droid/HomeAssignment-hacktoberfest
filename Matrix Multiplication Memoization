@@ -32,7 +32,7 @@ int main()
 		if (temp < mn)
 			mn = temp;
 	}
-	return t[i][j] = mn;
+	return t[i][j] =mn;
 }
 
 int main()
