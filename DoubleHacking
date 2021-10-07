@@ -25,16 +25,7 @@ public:
         return(curr_size == SIZE);
     }
     
-    long int *hashTable;
-    int curr_size;
-
-    doubleHash()
-    {
-        hashTable = new long int[SIZE]; 
-        curr_size = 0; 
-        for (int i = 0; i < SIZE; i++) 
-            hashTable[i] = -1; 
-    }
+    long int *hash
 
     void insertHash(int key) 
     { 
@@ -124,42 +115,7 @@ int main()
     while(lamda<=0.8)
     {
        
-       int successful_delete_count = 0;
-       int unsuccessful_delete_count = 0;
-       int insert_count = 0;
-        cout<<"initial value of loading factor : "<<lamda<<endl;
-        for(int i=0 ; i<4000 ;i++)
-    {
-        int j = rand() % n*5000;    // generates any no from 0 n*10000
-        h.insertHash(j);
-        insert_count++;
-    }
-    cout<<insert_count<<" Numbers SUCCESSFULLY inserted! "<<endl;
-
-    for(int i=0 ; i<2000 ;i++)
-    {
-        int j = rand() % n*1000;    // generates any no from 0 n*10000
-        if(h.deleteKey(j)) successful_delete_count++;
-        else unsuccessful_delete_count++;
-    }
-    cout<<successful_delete_count<<" Numbers SUCCESSFULLY deleted! "<<endl;
-    cout<<unsuccessful_delete_count<<" Numbers UNSUCCESSFULLY deleted! "<<endl;
-    cout<<"Numbers inserted : "<<h.curr_size<<endl;
-    lamda = (float)h.curr_size/(float)SIZE;
-
-    for(int i=0 ; i<7000;i++)
-    {
-        int j = rand() % n*5000;    // generates any no from 0 to 100000
-        start = clock();
-        if(h.search(j)) successful_search_count++;
-        else unsuccessful_search_count++;
-        end = clock();
-        search_time = ((double) (end - start)) / CLOCKS_PER_SEC;
-        cout<<"element searched : "<<j<<"->"<<"search_time : "<<search_time<<endl;
-        index++;
-    }
-    cout<<successful_search_count+unsuccessful_search_count<<" Numbers searched! "<<endl;
-    n++;
+       int su
 
     cout<<"final value of loading factor : "<<lamda<<endl<<endl<<endl;
      start = clock();
