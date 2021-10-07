@@ -1,24 +1,7 @@
 @import 'template.css';
 @media screen and (max-width: 700px) {
 	#header {
-		height: 10vh;
-	}
-	.section {
-		padding: 0px 0px 0px 0px;
-		margin: 0px 0px 20px 0px;
-	}
-}
-
-
-}
-.brand-name {
-	font-size: 50px;
-	font-weight: bolder;
-}
-.sub-brand {
-	font-size: 18px;
-}
-#profile-picture-div {
+		hei
 	/* display: table-cell; */
 	vertical-align: middle;
 }
