@@ -41,6 +41,18 @@
     border-radius: 120% 120% 100% 100%;
   }
 
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+
 
   .penguin-bottom {
     top: 40%;
@@ -86,14 +98,3 @@
   }
 
 
-
-  .right-feet {
-    top: 85%;
-    left: 60%;
-    background: var(--penguin-beak, orange);
-    width: 15%;
-    height: 30%;
-    border-radius: 50% 50% 50% 50%;
-    transform: rotate(-80deg);
-    z-index: -2222;
-  }
