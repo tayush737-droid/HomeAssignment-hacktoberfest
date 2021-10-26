@@ -1,19 +1,19 @@
 #include <iostream>
-using namespace std;
-
+us
 int y = 0;
-int fun1(int x)
+int fu
+	}
+	c
+
+int main(){
+	int x = 6;
+	fn1(int x)
 {
 
 	if(x>0){
 		fun1(x-1);
 		cout<<x<<"\n";
-		y++;
-	}
-	cout<<y<<"\n";
-}
-
-int main(){
-	int x = 6;
-	fun1(x);
+		y++;un1(x);
+}ing namespace std;
+out<<y<<"\n";
 }
