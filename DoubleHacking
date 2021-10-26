@@ -9,22 +9,6 @@ class doubleHash
 {
 public:
     
-
-    int hash1(int k)
-    {
-        return(k%SIZE);
-    }
-
-    int hash2(int k)
-    {
-        return(R - (k%R));
-    }
-
-    bool isFull()
-    {
-        return(curr_size == SIZE);
-    }
-    
     long int *hash
 
     void insertHash(int key) 
@@ -87,6 +71,22 @@ public:
         else return false;
     }
 
+    
+
+    int hash1(int k)
+    {
+        return(k%SIZE);
+    }
+
+    int hash2(int k)
+    {
+        return(R - (k%R));
+    }
+
+    bool isFull()
+    {
+        return(curr_size == SIZE);
+    }
     void displayHash() 
     { 
         for (int i = 0; i < SIZE; i++) { 
@@ -112,6 +112,19 @@ int main()
      int unsuccessful_search_count = 0;
 
 
+    cout<<successful_search_count+unsuccessful_search_count<<" Numbers searched! "<<endl;
+    n++;
+
+    cout<<"final value of loading factor : "<<lamda<<endl<<endl<<endl;
+    s dn ckcsdsdfdrdedrdrftftraviral
+    }
+    
+    cout<<" DONE !"<<endl;
+    
+    
+    
+    return 0;
+
     while(lamda<=0.8)
     {
        
@@ -126,19 +139,6 @@ int main()
         cout<<"element searched : "<<j<<"->"<<"search_time : "<<search_time<<endl;
         index++;
     }
-    cout<<successful_search_count+unsuccessful_search_count<<" Numbers searched! "<<endl;
-    n++;
-
-    cout<<"final value of loading factor : "<<lamda<<endl<<endl<<endl;
-    s dn ckcsdsdfdrdedrdrftftraviral
-    }
-    
-    cout<<" DONE !"<<endl;
-    
-    
-    
-    return 0;
-
 
     return 0 ;
 }
