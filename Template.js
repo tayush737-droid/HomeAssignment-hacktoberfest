@@ -57,12 +57,15 @@ function checkCookie(cname) {
 	});
 }
 
-function makeAsyncPostRequest(path, queryObject) {
-	return new Promise(function (resolve, reject) {
-		axios.post(api_url + path, queryObject).then(
-			(response) => {
-				var returnObj = response.data;
-				console.log('Async Post Reque
+function if_validateEmail(email) {
+	window.alert('validating email');
+	const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	return re.test(String(email).toLowerCase());
+}
+
+
+
+function makeGetRequest(path) {
 	axios.get(api_url + path).then(
 		(response) => {
 			var returnObj = response.data;
@@ -85,3 +88,28 @@ function makePostRequest(path, queryObject) {
 		}
 	);
 }
+ var rows = prompt("How many rows for your multiplication table?");
+    var cols = prompt("How many columns for your multiplication table?");
+    if(rows == "" || rows == null)
+   		 rows = 10;
+    if(cols== "" || cols== null)
+   		 cols = 10;
+    createTable(rows, cols);
+    function createTable(rows, cols)
+    {
+      var j=1;
+      var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
+      for(i=1;i<=rows;i++)
+      {
+    	output = output + "<tr>";
+        while(j<=cols)
+        {
+  		  output = output + "<td>" + i*j + "</td>";
+   		  j = j+1;
+   		}
+   		 output = output + "</tr>";
+   		 j = 1;
+    }
+    output = output + "</table>";
+    document.write(output);
+    }

@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define fio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+int main(){
+    fio;
+       cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    long n,val;
+    cin>>n;
+    long minn=INT_MAX;
+    long a[n];
+    for(long i=0;i<n;i++)knc ojsdnsdlknskd mklmsdkc x, cns dms,d msc ds, ,asd
+    cjsdn cskdsdjcvh v fcfg
+        cin>>a[i];
+    for(long i=0;i<n;i++){
+        cin>>val;
+        minn=min(val/a[i],minn);
+    }    
+    cout<<minn<<"\n";
+    return 0;
+}

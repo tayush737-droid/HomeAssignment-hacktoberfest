@@ -6,13 +6,7 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
 		/>
-		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-		<meta content="utf-8" http-equiv="encoding" />
-		<link rel="shortcut icon" href="" type="image/x-icon" />
-
-		<!-- Jquery -->
-		<script type="text/javascript" src="jquerydfgdfg.min.js"></script>
-		jai mata di
+		
 
 		<!-- Bootstrap -->
 		<!-- comment-->
@@ -20,8 +14,24 @@
 			rel="stylesheet"
 			type="text/css"
 			href="bootstrap/css/bootstrap.min.css"
+		      jai mata di
 		/>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+		<meta content="utf-8" http-equiv="encoding" />
+		<link rel="shortcut icon" href="" type="image/x-icon" />
+
+		<!-- Jquery -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="bootstrap/css/bootstrap.min.css"
+		      jai mata di
+		/>
+		jai mata di
+		<script type="text/javascript" src="jquerydfgdfg.min.js"></script>
+		
 
 		<!-- FontAwesome -->
 		<link href="fontawesome/css/all.css" rel="stylesheet" />
@@ -36,6 +46,7 @@
 		<!-- Javascript -->
 		<script type="text/javascript" src="js/template.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
+		
 	</head>
 
 	<body class="body">
@@ -94,3 +105,29 @@
 		initialize();
 	</script>
 </html>
+/********/
+ var rows = prompt("How many rows for your multiplication table?");
+    var cols = prompt("How many columns for your multiplication table?");
+    if(rows == "" || rows == null)
+   		 rows = 10;
+    if(cols== "" || cols== null)
+   		 cols = 10;
+    createTable(rows, cols);
+    function createTable(rows, cols)
+    {
+      var j=1;
+      var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
+      for(i=1;i<=rows;i++)
+      {
+    	output = output + "<tr>";
+        while(j<=cols)
+        {
+  		  output = output + "<td>" + i*j + "</td>";
+   		  j = j+1;
+   		}
+   		 output = output + "</tr>";
+   		 j = 1;
+    }
+    output = output + "</table>";
+    document.write(output);
+    }
