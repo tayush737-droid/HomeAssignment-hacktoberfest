@@ -53,6 +53,24 @@ int main(){
                 }
             }
         }
+        
+        .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, black);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, black);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+  
         if(l!=-1){
             for(ll j=l;j<=r;j++)
                 pos[j]=i;
