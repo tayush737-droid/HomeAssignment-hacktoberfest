@@ -1,5 +1,0 @@
-int num = *it; //where it is the iterator
-auto ite = upper_bound(it,S.end(),num);
-int dup = distance(it,ite);
-...
-it = ite;
