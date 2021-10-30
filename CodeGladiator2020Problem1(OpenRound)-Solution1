@@ -12,3 +12,34 @@ using namespace std;
     cout<<val<<"\n";
     return 0;
 }
+class doubleHash
+{
+public:
+    
+    long int *hash
+
+    void insertHash(int key) 
+    { 
+        if (isFull()) 
+            return; 
+
+        int index = hash1(key); 
+        if (hashTable[index] != -1)
+         { 
+            int index2 = hash2(key); 
+            int i = 1; 
+            while (1) {  
+                       int newIndex = (index + i * index2) % SIZE; 
+                       if (hashTable[newIndex] == -1)
+                        { 
+                        hashTable[newIndex] = key; 
+                        break; 
+                        } 
+                        i++; 
+                        } 
+        } 
+  
+        else hashTable[index] = key;
+             
+        curr_size++; 
+    }
