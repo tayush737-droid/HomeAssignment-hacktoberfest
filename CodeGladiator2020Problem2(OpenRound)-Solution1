@@ -27,7 +27,35 @@ int main(){
         for(long i=0;i<n;i++)
             cin>>b[i];
         long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());       for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
         sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n       for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n;i++)
+            cin>>b[i];
+        long cnt=0;
+        sort(a.begin(),a.end(),greater<long long>());
+        sort(b.begin(),b.end(),greater<long long>());(n);
+        for(long i=0;i<n;i++)
+            cin>>a[i];
+        for(long i=0;i<n
         sort(b.begin(),b.end(),greater<long long>());
         long x=0,y=0;
         while(x<n && y<n){
