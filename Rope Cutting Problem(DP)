@@ -10,6 +10,26 @@ int main()
 	int t;
 	cin >> t;
 	while(t--)
+	{    cout.tie(NULL);
+	
+	int t;
+	cin >> t;
+	while(t--)
+	{    cout.tie(NULL);
+	
+	int t;
+	cin >> t;
+	while(t--)
+	{    cout.tie(NULL);
+	
+	int t;
+	cin >> t;
+	while(t--)
+	{    cout.tie(NULL);
+	
+	int t;
+	cin >> t;
+	while(t--)
 	{
 	    int n;
 	cin >> t;
