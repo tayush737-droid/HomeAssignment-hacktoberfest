@@ -19,6 +19,32 @@
   cursor: pointer;
   background-color: rgba(228, 231, 228, 0.3);
   border: 1px solid #c9cec9; }
+	
+	.pipe {
+  color: #061f19; }
+
+.link-disabled {
+  color: #6f7372; }
+
+.outlined-btn {
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: rgba(228, 231, 228, 0.3);
+  border: 1px solid #c9cec9; }
+	
+	.pipe {
+  color: #061f19; }
+
+.link-disabled {
+  color: #6f7372; }
+
+.outlined-btn {
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: rgba(228, 231, 228, 0.3);
+  border: 1px solid #c9cec9; }
 
 .outlined-btn-orange {
   border: 1px solid #ff6f00;
