@@ -23,6 +23,30 @@
   flex-direction: row;
   padding-left: 1rem;
   flex-wrap: wrap;
+.outlined-btn-orange {
+  border: 1px solid #ff6f00;
+  background-color: rgba(255, 111, 0, 0.1); }
+
+.cursor-default {
+  cursor: default !important; }
+
+.filter-chips-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+.outlined-btn-orange {
+  border: 1px solid #ff6f00;
+  background-color: rgba(255, 111, 0, 0.1); }
+
+.cursor-default {
+  cursor: default !important; }
+
+.filter-chips-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  flex-wrap: wrap;
   align-items: center; }
 
 .filter-caption-div {
