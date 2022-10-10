@@ -18,3 +18,10 @@ int sub(int num1, int num2)//function definition
     else
         return sub((num1-1),(num2-1));
 }
+int sub(int num1, int num2)//function definition
+{
+    if(num2==0)
+        return num1;
+    else
+        return sub((num1-1),(num2-1));
+}
