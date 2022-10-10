@@ -28,3 +28,14 @@ class Solution(object):
                 for r in res[:res_len]:
                     res.append(r+[num]*i)
         return res
+  def prime(num):
+    count = 2
+    while count<=num:
+        if num%count == 0:
+            break
+        count+=1
+
+    if count == num:
+        print("Prime Number")
+    else:
+        print("Not Prime Number")
