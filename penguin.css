@@ -18,6 +18,39 @@
   .left-cheek {
     top: 15%;
     left: 5%;
+    background: var(--penguin-bel
+    display: block;
+    margin-top: 5%;
+    width: var(--penguin-size, 300px);
+    height: var(--penguin-size, 300px);
+  }
+
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: var(--penguin-bel
+    display: block;
+    margin-top: 5%;
+    width: var(--penguin-size, 300px);
+    height: var(--penguin-size, 300px);
+  }
+
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: var(--penguin-bel
+    display: block;
+    margin-top: 5%;
+    width: var(--penguin-size, 300px);
+    height: var(--penguin-size, 300px);
+  }
+
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
     background: var(--penguin-belly, white);
     width: 60%;
     height: 70%;
