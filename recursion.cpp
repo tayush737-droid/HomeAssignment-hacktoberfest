@@ -12,6 +12,27 @@ int fun1(int x)
 	}
 	cout<<y<<"\n";
 }
+int fun1(int x)
+{
+
+	if(x>0){
+		fun1(x-1);
+		cout<<x<<"\n";
+		y++;
+	}
+	cout<<y<<"\n";
+}
+
+int fun1(int x)
+{
+
+	if(x>0){
+		fun1(x-1);
+		cout<<x<<"\n";
+		y++;
+	}
+	cout<<y<<"\n";
+}
 
 int main(){
 	int x = 6;
